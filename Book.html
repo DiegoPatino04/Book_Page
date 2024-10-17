@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Book</title>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+     <!-- Navigation Menu -->
+     <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="/Utilities/menu icon.jpg"> <!-- menu icon -->
+            <i class="fas fa-book"></i>
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.html">Main Page</a>
+                    <a class="dropdown-item" href="Book.html">Book</a>
+                    <a class="dropdown-item" href="#">Gallery</a>
+                </div>
+
+    <!-- Book Page Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="book">
+                    <div class="page" id="page1">Page 1 content...</div>
+                    <div class="page" id="page2">Page 2 content...</div>
+                    <div class="page" id="page3">Page 3 content...</div>
+                    <!-- Add more pages as needed -->
+                </div>
+                <div class="controls">
+                    <button id="prevBtn">Previous Page</button>
+                    <span id="pageCounter">Page 1 of X</span>
+                    <button id="nextBtn">Next Page</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Developer Logos -->
+                    <h5>Developed by:</h5>
+                    <ul>
+                        <li><img src="logo1.png" alt="Logo 1"></li>
+                        <li><img src="logo2.png" alt="Logo 2"></li>
+                        <li><img src="logo3.png" alt="Logo 3"></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <!-- Developer Information -->
+                    <h5>About the Developers:</h5>
+                    <p>Information about the developers...</p>
+                </div>
+                <div class="col-md-4">
+                    <!-- Social Media Links -->
+                    <h5>Follow us:</h5>
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
